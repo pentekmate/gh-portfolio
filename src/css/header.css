@@ -1,0 +1,36 @@
+.headercontainer{
+    background-color: #FDFDFD;
+}
+.headerimg{
+    min-height:100%;
+    min-width: 100%;
+    object-fit: cover;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 2px 2px;
+    mix-blend-mode: multiply;
+}
+.imgcontainer{
+    max-height: 30rem; 
+}
+.containerh1{
+    font-weight: 700;
+    max-height: 4rem;
+}
+h2{
+    max-height: 4rem;
+}
+h1>span{
+    color:#357C3C
+}
+h1{
+    text-shadow: -1px 2px 3px rgba(0,0,0,0.23);
+    font-family: 'Kantumruy', sans-serif;                                         
+}
+h2{
+    font-style: italic;
+    font-family: 'Krub', sans-serif;
+    font-family: 'Krub ExtraLight', sans-serif;
+    font-family: 'Krub Light', sans-serif;
+    font-family: 'Krub Medium', sans-serif;
+    font-family: 'Krub SemiBold', sans-serif;
+
+}

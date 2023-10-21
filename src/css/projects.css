@@ -1,0 +1,35 @@
+.projects{
+    background-image: url("../imgs/spectrum-gradient\ \(2\).png");
+}
+.projectsh1{
+    font-family: 'microsoft-tai-le-regular', sans-serif;
+    color:#FDFDFD;
+    font-weight: 700;
+    letter-spacing: -1%;
+}
+hr{
+    border: 2px solid #FDFDFD;
+    background-color: #FDFDFD;
+    width: 20%;
+    opacity: 1;
+}
+
+.custom-shape-divider-top-1697902009 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1697902009 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 100px;
+}
+
+.custom-shape-divider-top-1697902009 .shape-fill {
+    fill: #FDFDFD;
+}
