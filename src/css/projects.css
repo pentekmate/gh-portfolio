@@ -1,11 +1,13 @@
 .projects{
     background-image: url("../imgs/spectrum-gradient\ \(2\).png");
+    background-size: cover;
 }
 .projectsh1{
-    font-family: 'microsoft-tai-le-regular', sans-serif;
+    font-family: 'Kantumruy', sans-serif;  
     color:#FDFDFD;
     font-weight: 700;
-    letter-spacing: -1%;
+    letter-spacing:-1px;
+    text-shadow: -1px 4px 6px rgba(0,0,0,0.23);
 }
 hr{
     border: 2px solid #FDFDFD;

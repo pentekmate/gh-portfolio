@@ -6,7 +6,7 @@ function Header()
 {
 
     return(
-        <div className='container-fluid headercontainer'>
+        <div data-aos="zoom-in" className='container-fluid headercontainer'>
             <div className='container'>
             <header className='row pt-5'>
                 <div className='col-lg-6 col-sm-12 pt-5 mt-5'>
