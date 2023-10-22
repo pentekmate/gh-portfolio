@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/pentekmate.github.io/static/css/main.c3c08cbd.css",
-    "main.js": "/pentekmate.github.io/static/js/main.e94dff99.js",
-    "static/js/787.1ed0c42c.chunk.js": "/pentekmate.github.io/static/js/787.1ed0c42c.chunk.js",
-    "static/media/spectrum-gradient (2).png": "/pentekmate.github.io/static/media/spectrum-gradient (2).2132492511330c98947d.png",
-    "static/media/headerimg.png": "/pentekmate.github.io/static/media/headerimg.864e960ef7860b440c8e.png",
-    "static/media/Frame11.png": "/pentekmate.github.io/static/media/Frame11.c05c389c9066493e05ff.png",
-    "static/media/Frame10.png": "/pentekmate.github.io/static/media/Frame10.39476c34f09c57f74bca.png",
-    "static/media/Questions-rafiki.png": "/pentekmate.github.io/static/media/Questions-rafiki.e3f9e549d2315f8519d4.png",
-    "static/media/Frame4.png": "/pentekmate.github.io/static/media/Frame4.32beef55ec2fc63daf91.png",
-    "static/media/react-js-icon.png": "/pentekmate.github.io/static/media/react-js-icon.396536ced87da4ba25b4.png",
-    "index.html": "/pentekmate.github.io/index.html",
-    "static/media/Ellipse 1.svg": "/pentekmate.github.io/static/media/Ellipse 1.5b05dc1595df791da7d148d35317ef96.svg",
-    "main.c3c08cbd.css.map": "/pentekmate.github.io/static/css/main.c3c08cbd.css.map",
-    "main.e94dff99.js.map": "/pentekmate.github.io/static/js/main.e94dff99.js.map",
-    "787.1ed0c42c.chunk.js.map": "/pentekmate.github.io/static/js/787.1ed0c42c.chunk.js.map"
+    "main.css": "/gh-portfolio/static/css/main.a1b21772.css",
+    "main.js": "/gh-portfolio/static/js/main.b17cc918.js",
+    "static/js/787.1ed0c42c.chunk.js": "/gh-portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/spectrum-gradient (2).png": "/gh-portfolio/static/media/spectrum-gradient (2).2132492511330c98947d.png",
+    "static/media/headerimg.png": "/gh-portfolio/static/media/headerimg.864e960ef7860b440c8e.png",
+    "static/media/Frame11.png": "/gh-portfolio/static/media/Frame11.c05c389c9066493e05ff.png",
+    "static/media/Frame10.png": "/gh-portfolio/static/media/Frame10.39476c34f09c57f74bca.png",
+    "static/media/Questions-rafiki.png": "/gh-portfolio/static/media/Questions-rafiki.e3f9e549d2315f8519d4.png",
+    "static/media/Frame4.png": "/gh-portfolio/static/media/Frame4.32beef55ec2fc63daf91.png",
+    "static/media/react-js-icon.png": "/gh-portfolio/static/media/react-js-icon.396536ced87da4ba25b4.png",
+    "index.html": "/gh-portfolio/index.html",
+    "static/media/Ellipse 1.svg": "/gh-portfolio/static/media/Ellipse 1.5b05dc1595df791da7d148d35317ef96.svg",
+    "main.a1b21772.css.map": "/gh-portfolio/static/css/main.a1b21772.css.map",
+    "main.b17cc918.js.map": "/gh-portfolio/static/js/main.b17cc918.js.map",
+    "787.1ed0c42c.chunk.js.map": "/gh-portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c3c08cbd.css",
-    "static/js/main.e94dff99.js"
+    "static/css/main.a1b21772.css",
+    "static/js/main.b17cc918.js"
   ]
 }
