@@ -1,0 +1,76 @@
+.project>div{
+    color:#FDFDFD;
+}
+
+.short{
+    color:#357C3C;
+    font-weight: 700;
+    opacity: 1;
+    margin:0;
+    font-family: 'Kantumruy', sans-serif;  
+}
+h3{
+    font-family: 'Kantumruy', sans-serif;  
+    font-weight: 600;
+}
+.description{
+    font-weight: 400;
+    font-size:1.2rem ;
+}
+li {
+    color: #357C3C;
+}
+
+li span {
+    color: #FDFDFD;
+    width:100%
+}
+li{
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+h5{
+    font-weight: 500;
+}
+.projectimg{
+    max-width: 100%;
+    transition: filter 0.4s ease;
+}
+.projectimg3{
+    max-width: 80%;
+    transition: filter 0.4s ease;
+}
+.imageblurred {
+   filter:blur(10px);
+   transition: filter 0.4s ease;
+}
+.image-container {
+    position: relative;
+    cursor: pointer;
+}
+.button {
+    transition: all 0.2s;
+    font-weight: 500;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px 20px;
+    background-color: transparent;
+    border: solid 1px #FDFDFD;
+    cursor: pointer;
+    display: none;
+    border-radius: 5px;
+  }
+  .image-container:hover .button {
+    display: block;
+  
+}
+.hover{
+    transition: all 0.2s;
+    background-color: #357C3C;
+    color:#FDFDFD;
+    border-radius: 5px;
+    border:none
+}
+

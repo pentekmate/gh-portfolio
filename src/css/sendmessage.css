@@ -1,0 +1,108 @@
+.smg{
+    background-color: #FDFDFD;
+}
+.smgimg{
+    max-width: 100%;
+}
+.smgh2{
+    font-style: normal;
+    font-weight: 600;
+
+}
+.smgq{
+    width: 100%;
+    font-size: 1.1rem;
+    letter-spacing: 0.10rem;
+    opacity: 0.6;
+
+}
+.buttons{
+    display: flex;
+    flex-wrap: wrap;
+    gap:50px;
+}
+.linkdin{
+    transition: all 0.4s ease;
+    background-color: transparent;
+    width:7rem;
+    border-radius: 5px;
+    border:solid 1px black;
+    font-family: 'Lustria', sans-serif;
+}
+.gmail{
+    transition: all 0.4s ease;
+    color:#FDFDFD;
+    background-color: #357C3C;
+    width:7rem;
+    height: 2.4rem;
+    border-radius: 5px;
+    border:none;
+    font-family: 'Lustria', sans-serif;   
+}
+.hoveredlinkdin{
+    transition: all 0.4s ease;
+    color:#FDFDFD;
+    background-color: #357C3C;
+    width:7rem;
+    height: 2.4rem;
+    border-radius: 5px;
+    border:none;
+    font-family: 'Lustria', sans-serif;
+    transform: translateY(-10px)
+}
+.hoveredgmail{
+    transition: all 0.4s ease;
+    background-color: transparent;
+    width:7rem;
+    border-radius: 5px;
+    border:solid 1px black;
+    font-family: 'Lustria', sans-serif;
+    color:black;
+    transform: translateY(-10px)
+}
+a{
+    text-decoration: none;
+    color:black
+}
+.notshow{
+    width:50%;
+    display: none;
+}
+.show{
+    width:50%;
+    display: block;
+}
+.smgp{
+    height: 3rem;
+    line-height: 3rem;
+    text-align: center;
+    border:solid 1px  rgba(0,0,0,0.23);
+    border-radius: 5px;
+}
+.smgspan{
+    margin-left:2rem;
+    border-radius: 5px;
+    min-width: 2rem;
+    font-weight: 600;
+}
+.emailbutton{
+    background-color: transparent;
+    border:none;
+}
+
+
+@media screen and (max-width: 768px){
+    .notshow{
+        width:100%;
+        display: none;
+    }
+    .show{
+        width:100%;
+        display: block;
+    }
+    .smgh2{
+        font-style: normal;
+        font-weight: 600;
+        font-size: 1.3rem;
+    }
+}
