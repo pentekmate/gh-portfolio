@@ -8,7 +8,7 @@ import '../css/skills.css'
 function Skills() {
    
     return(
-        <div className="container-fluid skills pb-5" data-aos="fade-right">
+        <div id="skills" className="container-fluid skills pb-5 pt-5" data-aos="fade-right">
             <div className='d-flex justify-content-center'>
                 <h1 className='skillsh1 mt-5 mb-5'>Erősségeim</h1>
             </div>
@@ -29,7 +29,7 @@ function Skills() {
                 </div>
             </div>
             <div className='d-flex justify-content-center'>
-                <h1 className='skillsh1 mt-5 mb-5'>További érdeklődéseim</h1>
+                <h1 className='skillsh1_2 mt-5 mb-5'>További érdeklődéseim</h1>
             </div>
             <div className='container'>
                 <div className='row'>

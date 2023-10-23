@@ -16,7 +16,7 @@ const handleMouseLeaveOnButton=()=>{
     setHoverButton(false)
 }
 return(
-    <div  data-aos="fade-up"   className="row project mt-5">
+    <div  data-aos="fade-up"    className="row project mt-5">
         <div className="col-lg-12 col-sm-12">
             <h3>{nev}</h3>
         </div>

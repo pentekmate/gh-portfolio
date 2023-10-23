@@ -16,6 +16,12 @@
     max-height: 4rem;
 }
 h2{
+    font-style: italic;
+    font-family: 'Krub', sans-serif;
+    font-family: 'Krub ExtraLight', sans-serif;
+    font-family: 'Krub Light', sans-serif;
+    font-family: 'Krub Medium', sans-serif;
+    font-family: 'Krub SemiBold', sans-serif;
     max-height: 4rem;
 }
 h1>span{
@@ -25,12 +31,9 @@ h1{
     text-shadow: -1px 2px 3px rgba(0,0,0,0.23);
     font-family: 'Kantumruy', sans-serif;                                         
 }
-h2{
-    font-style: italic;
-    font-family: 'Krub', sans-serif;
-    font-family: 'Krub ExtraLight', sans-serif;
-    font-family: 'Krub Light', sans-serif;
-    font-family: 'Krub Medium', sans-serif;
-    font-family: 'Krub SemiBold', sans-serif;
 
+@media (min-width:769px) and (max-width:992px) {
+    .mdheader{
+       margin-bottom: 3rem
+    }
 }

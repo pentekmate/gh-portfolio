@@ -1,9 +1,13 @@
-import '../App.css';
+
 import Header from './Header';
 import ProjectsContainer from './ProjectsContainer';
 import AOS from 'aos';
 import Skills from './Skills';
 import SendMessage from './SendMessage';
+import AppContainer from './AppContainer'
+import { useEffect, useState } from 'react';
+import Navbar from './Navbar';
+import MobileNav from './MobileNav';
 AOS.init();
 const data=[{
   id:1,
@@ -30,13 +34,47 @@ const data=[{
   technologia:["ReactJs"] 
 },]
 function App() {
+  const [screenSize,setScreenSize]=useState(getCurrentScreenSize())
+  const [scrolling, setScrolling] = useState(false);
+  function getCurrentScreenSize()
+  {
+    return window.innerWidth;
+  }
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 300) {
+        setScrolling(true);
+      } else {
+        setScrolling(false);
+      }
+    };
+    window.addEventListener('scroll', handleScroll);
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, [window.scrollY]);
+  useEffect(() => {
+    const updateDimension = () => {
+      setScreenSize(getCurrentScreenSize())
+    }
+    window.addEventListener('resize', updateDimension);
+    
+    return(() => {
+        window.removeEventListener('resize', updateDimension);
+      
+    })
+  }, [screenSize])
   return (
-    <div className="App">
+    <AppContainer>
+        {screenSize>768? 
+        <Navbar scrolling={scrolling}></Navbar>:
+        <MobileNav scrolling={scrolling}></MobileNav>}
+       
         <Header></Header>
         <ProjectsContainer data={data}></ProjectsContainer>
         <Skills></Skills>
         <SendMessage></SendMessage>
-    </div>
+    </AppContainer>
   );
 }
 

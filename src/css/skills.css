@@ -1,7 +1,7 @@
 .skills{
     background-color:#E4F1FF ;
 }
-.skillsh1{
+.skillsh1,.skillsh1_2{
     font-family: 'Kantumruy', sans-serif;  
     color:#357C3C;
     font-weight: 700;
@@ -35,4 +35,16 @@
         max-width: 100%;
         height: 146px;
     }
+}
+@media (min-width:769px) and (max-width:992px) {
+    .skillsimg{
+        max-width: 100%;
+       
+    }
+}
+@media screen and (max-width: 281px){
+    .skillsh1_2,.skillsh1{
+        font-size:19px;
+    }
+
 }

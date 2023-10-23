@@ -28,10 +28,42 @@ hr{
 .custom-shape-divider-top-1697902009 svg {
     position: relative;
     display: block;
-    width: calc(100% + 1.3px);
+    width: 100%;
     height: 100px;
 }
 
 .custom-shape-divider-top-1697902009 .shape-fill {
     fill: #FDFDFD;
+}
+@media screen and (max-width: 768px){
+    .custom-shape-divider-top-1697902009 {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        overflow: hidden;
+        line-height: 0;
+    }
+    
+    .custom-shape-divider-top-1697902009 svg {
+        position: relative;
+        display: block;
+        width: 100%;
+        height: 50px;
+    }
+    
+    .custom-shape-divider-top-1697902009 .shape-fill {
+        fill: #FDFDFD;
+    }
+    .projectsh1{
+        font-family: 'Kantumruy', sans-serif;  
+        color:#FDFDFD;
+        font-weight: 700;
+        letter-spacing:-1px;
+        text-shadow: -1px 4px 6px rgba(0,0,0,0.23);
+        font-size: 1.6rem;
+    }
+    hr{
+        width: 50%;
+    }
 }

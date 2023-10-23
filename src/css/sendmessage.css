@@ -106,3 +106,52 @@ a{
         font-size: 1.3rem;
     }
 }
+@media (min-width:769px) and (max-width:992px) {
+    .notshow{
+        width:100%;
+        display: none;
+    }
+    .show{
+        width:100%;
+        display: block;
+    }
+    .smgh2{
+        font-style: normal;
+        font-weight: 600;
+        font-size: 2rem;
+    }
+    .linkdin,.gmail{
+        width:10rem;
+        height: 3rem;
+    }
+    .smgq{
+        width: 100%;
+        letter-spacing: 0.10rem;
+        opacity: 0.6;
+        margin-top:3rem !important ;
+        margin-bottom:3rem !important;
+    
+    }
+
+}
+@media screen and (max-width: 281px){
+    .notshow{
+        width:100%;
+        display: none;
+    }
+    .show{
+        width:100%;
+        display: block;
+    }
+    .smgh2{
+        font-style: normal;
+        font-weight: 600;
+        font-size: 0.99rem;
+        width: 100%;
+    }
+    .linkdin,.gmail{
+        width:6rem;
+        height: 2.8rem;
+    }
+
+}

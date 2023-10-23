@@ -31,15 +31,13 @@ function SendMessage() {
         <div className="container-fluid vh-100 smg">
                 <div className="container">
                     <div className="row">
-                        <div className="col-lg-6 col-sm-12 smgimgcontainer">
+                        <div className="col-lg-6 col-md-12 col-sm-12 smgimgcontainer">
                             <img className='smgimg' src={question} alt="kerdes"></img>
                         </div>
-                        <div className="col-lg-6 col-sm-12">
+                        <div id="smg"  className="col-lg-6 col-md-12 col-sm-12 ">
                             <h2 className='smgh2 mt-5 pt-5 d-flex justify-content-center'>Felkeltettem az érdeklődésed?</h2>
                             <p className='d-flex justify-content-center smgq mt-4'>Küldj üzenetet</p>
                             <div className='d-flex justify-content-center mt-3 buttons'>
-
-
                                 <button onMouseEnter={()=>handleMouseEnterOnButton(1)} onMouseLeave={handleMouseLeaveOnButton} onClick={openLinkedInProfile} className={`smgbutton linkdin ${hoverButtonId===1?'hoveredlinkdin':""}`}>LinkdIn</button>
                                 <button onMouseEnter={()=>handleMouseEnterOnButton(2)} onMouseLeave={handleMouseLeaveOnButton} onClick={()=>setShowEmail(!showEmail)} className={`smgbutton gmail ${hoverButtonId===2?'hoveredgmail':""}`}>Gmail</button>
                                 <div className={`${showEmail?"show":"notshow"} position-relative`}>

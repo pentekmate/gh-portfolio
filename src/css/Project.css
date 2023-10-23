@@ -34,6 +34,8 @@ h5{
 }
 .projectimg{
     max-width: 100%;
+    position: relative;
+    right:-100px;
     transition: filter 0.4s ease;
 }
 .projectimg3{
@@ -66,11 +68,31 @@ h5{
     display: block;
   
 }
+
 .hover{
     transition: all 0.2s;
     background-color: #357C3C;
     color:#FDFDFD;
     border-radius: 5px;
     border:none
+}
+a{
+    text-decoration: none;
+    color:white !important;
+}
+
+@media screen and (max-width: 768px){
+    .projectimg{
+        max-width: 100%;
+        position: static;
+        transition: filter 0.4s ease;
+}
+}
+@media (min-width:769px) and (max-width:992px) {
+    .projectimg{
+        max-width: 100%;
+        position: static;
+        transition: filter 0.4s ease;
+}
 }
 

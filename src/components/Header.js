@@ -8,11 +8,11 @@ function Header()
     return(
         <div data-aos="zoom-in" className='container-fluid headercontainer'>
             <div className='container'>
-            <header className='row pt-5'>
-                <div className='col-lg-6 col-sm-12 pt-5 mt-5'>
-                    <div>
+            <header className='row pt-5 '>
+                <div className='col-lg-6 col-md-12 col-sm-12 pt-5 mt-5'>
+                    <div className='mdheader'>
                     <h1 className='containerh1'>Szia, <span>Péntek Máté </span> vagyok,</h1>
-                    <h2 className='pt-5'>
+                    <h2 className='pt-5 mx-0 mx-md-0'>
                     <ReactTypingEffect
                     text={["Webfejlesztő.", "Frontend Fejlesztő."]}
                     speed={100}
@@ -24,7 +24,7 @@ function Header()
                     </h2>
                     </div>
                 </div>
-                <div className='col-lg-6 col-sm-12 bg-white d-flex justify-content-center imgcontainer'>
+                <div className='col-lg-6 col-sm-12 col-md-12 bg-white d-flex justify-content-center imgcontainer'>
                     <img className='headerimg p-3' src={headerimg} alt="headerimg"></img>
                 </div>
             </header>
