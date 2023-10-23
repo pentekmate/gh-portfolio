@@ -1,0 +1,43 @@
+.navbar-show{
+    transition: all 0.5s ease;
+    background-color: #3c0c6c;
+}
+.navbar{
+    transition: all 0.5s ease;
+    position: sticky;
+    top:0;
+    z-index: 99;
+    height: 3rem;
+}
+.navbar-items{
+    display: none;
+}
+.navitem{
+    color:#fdfdfd;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+.navbar-items-show{
+    display: flex;
+    flex-wrap: wrap;
+    gap:100px;
+    width: 100%;
+    justify-content: center;
+}
+a{
+    transition: all 0.5s ease;
+}
+.active{
+    transition: all 0.5s ease;
+    transform: scale(1.2); 
+    font-weight: 600;
+   
+}
+.navitem:hover{
+    transition: all 0.5s ease;
+    transform: scale(1.5); 
+}
+
+
+
+

@@ -1,0 +1,42 @@
+.navbar{
+    transition: all 0.5s ease;
+    position: sticky;
+    top:0;
+    z-index: 99;
+    height: 3rem;
+}
+.navbar-show{
+    transition: all 0.5s ease;
+    background-color: #3c0c6c;
+}
+.smbutton{
+    background-color: transparent;
+    border: none;
+}
+a{
+    color:black !important
+}
+.navitem{
+    color:#fdfdfd !important
+}
+.mobilemenu{
+    background-color: #3c0c6c;
+    height: 100vh;
+    width: 100vh;
+    opacity: 0.95;
+
+}
+.x{
+    font-size: 2rem;
+    opacity: 1;
+    color: #fdfdfd;
+}
+.navitemsm{
+    color:#fdfdfd;
+
+}
+.mobilemenu>a{
+    margin-top: 2.5rem;
+    font-size: 1.5rem;
+    text-align: center;
+}
