@@ -1,3 +1,8 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
 .headercontainer{
     background-color: #FDFDFD;
 }
@@ -34,6 +39,6 @@ h1{
 
 @media (min-width:769px) and (max-width:992px) {
     .mdheader{
-       margin-bottom: 3rem
+       margin-bottom: 5rem
     }
 }

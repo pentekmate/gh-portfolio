@@ -9,39 +9,39 @@ function Skills() {
    
     return(
         <div id="skills" className="container-fluid skills pb-5 pt-5" data-aos="fade-right">
-            <div className='d-flex justify-content-center'>
+            <div  className='d-flex justify-content-center'>
                 <h1 className='skillsh1 mt-5 mb-5'>Erősségeim</h1>
             </div>
             <div className='container'>
                 <div className='row'>
-                    <div className='col-lg-4 col-sm-12 d-flex flex-column justify-content-center align-items-center skillsimgcontainer'>
+                    <div  data-aos="zoom-in" className='col-lg-4 col-sm-12 d-flex flex-column justify-content-center align-items-center skillsimgcontainer'>
                         <img className='skillsimg' src={react} alt="react"></img>
                         <p className='pt-3 skillsdesc'>React</p>
                     </div>
-                    <div  className='col-lg-4 col-sm-12 d-flex  flex-column justify-content-center align-items-center skillsimgcontainer'>
+                    <div  data-aos="zoom-in"  className='col-lg-4 col-sm-12 d-flex  flex-column justify-content-center align-items-center skillsimgcontainer'>
                         <img  className='skillsimg' src={javascrip} alt="react"></img>
                         <p  className='pt-3 skillsdesc'>Javascript</p>
                     </div>
-                    <div className='col-lg-4 col-sm-12 d-flex flex-column  justify-content-center align-items-center skillsimgcontainer'>
+                    <div data-aos="zoom-in"  className='col-lg-4 col-sm-12 d-flex flex-column  justify-content-center align-items-center skillsimgcontainer'>
                         <img  className='skillsimg' src={mysql} alt="react"></img>
                         <p  className='pt-3 skillsdesc'>Mysql</p>
                     </div>
                 </div>
             </div>
-            <div className='d-flex justify-content-center'>
+            <div  className='d-flex justify-content-center'>
                 <h1 className='skillsh1_2 mt-5 mb-5'>További érdeklődéseim</h1>
             </div>
             <div className='container'>
                 <div className='row'>
-                    <div className='col-lg-4 col-sm-12 d-flex flex-column justify-content-center align-items-center skillsimgcontainer'>
+                    <div data-aos="zoom-in"  className='col-lg-4 col-sm-12 d-flex flex-column justify-content-center align-items-center skillsimgcontainer'>
                         <img  className='skillsimg ' src={firebase} alt="react"></img>
                         <p className='pt-3 skillsdesc'>Firebase</p>
                     </div>
-                    <div className='col-lg-4 col-sm-12  d-flex  flex-column justify-content-center align-items-center skillsimgcontainer'>
+                    <div data-aos="zoom-in"  className='col-lg-4 col-sm-12  d-flex  flex-column justify-content-center align-items-center skillsimgcontainer'>
                         <img  className='skillsimg' src={nodejs} alt="react"></img>
                         <p  className='pt-3 skillsdesc'>Nodejs</p>
                     </div>
-                    <div className='col-lg-4 col-sm-12 d-flex flex-column  justify-content-center align-items-center skillsimgcontainer'>
+                    <div data-aos="zoom-in" className='col-lg-4 col-sm-12 d-flex flex-column  justify-content-center align-items-center skillsimgcontainer'>
                         <img  className='skillsimg' src={figma} alt="react"></img>
                         <p  className='pt-3 skillsdesc'>Figma</p>
                     </div>

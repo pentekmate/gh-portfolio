@@ -19,13 +19,7 @@ a{
 .navitem{
     color:#fdfdfd !important
 }
-.mobilemenu{
-    background-color: #3c0c6c;
-    height: 100vh;
-    width: 100vh;
-    opacity: 0.95;
 
-}
 .x{
     font-size: 2rem;
     opacity: 1;
@@ -40,3 +34,17 @@ a{
     font-size: 1.5rem;
     text-align: center;
 }
+.mobilemenu{
+    transition: all 0.5s ease;
+    background-color: #3c0c6c;
+    animation: example 0.5s ease;
+    opacity: 0.95;
+    height: 100vh;
+    width: 100vh;
+}
+@keyframes example {
+    from {height: 0vh;
+        width:0;}
+    to {height: 100vh;
+        width: 100vh;}
+  }

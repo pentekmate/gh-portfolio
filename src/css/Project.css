@@ -33,7 +33,7 @@ h5{
     font-weight: 500;
 }
 .projectimg{
-    max-width: 100%;
+    max-width: 80%;
     position: relative;
     right:-100px;
     transition: filter 0.4s ease;

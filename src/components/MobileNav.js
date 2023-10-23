@@ -15,7 +15,7 @@ function MobileNav({scrolling}) {
                 <BiMenuAltLeft onClick={()=>setClicked(!clicked)} id="dropdown-basic" color="#fdfdfd" size={30}></BiMenuAltLeft>
                 {clicked && 
                 <div onClick={()=>setClicked(!clicked)} className="mobilemenu d-flex flex-column position-relative">
-                    <div class="position-absolute top-0 end-0 x"><AiOutlineCloseCircle></AiOutlineCloseCircle></div>
+                    <div className="position-absolute top-0 end-0 x"><AiOutlineCloseCircle></AiOutlineCloseCircle></div>
                 <Link onClick={()=>setClicked(!clicked)} to="munkaim"
                 spy={true}
                 activeClass="activesm">

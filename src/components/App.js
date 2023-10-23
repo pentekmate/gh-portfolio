@@ -14,7 +14,7 @@ const data=[{
   link:"https://github.com/pentekmate/WebCrawler_Frontend",
   nev:"Webcrawler bot",
   kep:"Frame10.png",
-  leiras:"A project lényege az volt , hogy bizonyos használt cikkek megtalálása gyorsabb legyen, és ne kelljen oldalróloldalra járkálni.",
+  leiras:"A project lényege az volt , hogy bizonyos használt cikkek megtalálása gyorsabb legyen, és ne kelljen oldalról oldalra járkálni.",
   technologia:["ReactJs","NodeJs","Firebase"]
 },
 {
@@ -22,7 +22,7 @@ const data=[{
   link:"https://github.com/pentekmate/Bevasarlolista_Kozos_frontend",
   nev:"Bevásárló listám",
   kep:"Frame4.png",
-  leiras:"Ebben a projectben egy mobil alkalmazást készítettünk.Az alkalmazással a besárlást szerettük volna felgyorsítani. A projectet egy másik társammal készítettük. ",
+  leiras:"Ebben a projectben egy mobil alkalmazást készítettünk.Az alkalmazással a bevásárlást szerettük volna felgyorsítani. A projectet egy másik társammal készítettük. ",
   technologia:["React native","NodeJs","Mysql"] 
 },
 {
@@ -61,6 +61,7 @@ function App() {
     
     return(() => {
         window.removeEventListener('resize', updateDimension);
+        console.log(screenSize)
       
     })
   }, [screenSize])
