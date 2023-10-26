@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/gh-portfolio/static/css/main.9d3c9398.css",
-    "main.js": "/gh-portfolio/static/js/main.a0eacecd.js",
+    "main.js": "/gh-portfolio/static/js/main.5d9d5c6f.js",
     "static/js/787.1ed0c42c.chunk.js": "/gh-portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/spectrum-gradient (2).png": "/gh-portfolio/static/media/spectrum-gradient (2).2132492511330c98947d.png",
     "static/media/headerimg.png": "/gh-portfolio/static/media/headerimg.864e960ef7860b440c8e.png",
@@ -13,11 +13,11 @@
     "index.html": "/gh-portfolio/index.html",
     "static/media/Ellipse 1.svg": "/gh-portfolio/static/media/Ellipse 1.5b05dc1595df791da7d148d35317ef96.svg",
     "main.9d3c9398.css.map": "/gh-portfolio/static/css/main.9d3c9398.css.map",
-    "main.a0eacecd.js.map": "/gh-portfolio/static/js/main.a0eacecd.js.map",
+    "main.5d9d5c6f.js.map": "/gh-portfolio/static/js/main.5d9d5c6f.js.map",
     "787.1ed0c42c.chunk.js.map": "/gh-portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9d3c9398.css",
-    "static/js/main.a0eacecd.js"
+    "static/js/main.5d9d5c6f.js"
   ]
 }
