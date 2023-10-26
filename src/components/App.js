@@ -70,7 +70,6 @@ function App() {
         {screenSize>768? 
         <Navbar scrolling={scrolling}></Navbar>:
         <MobileNav scrolling={scrolling}></MobileNav>}
-       
         <Header></Header>
         <ProjectsContainer data={data}></ProjectsContainer>
         <Skills></Skills>

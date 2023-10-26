@@ -25,7 +25,7 @@ function SendMessage() {
     }
     const openLinkedInProfile = () => {
         window.open(linkedInProfileURL, '_blank');
-      };
+    };
 
     return(
         <div className="container-fluid vh-100 smg">
@@ -38,7 +38,7 @@ function SendMessage() {
                             <h2 className='smgh2 mt-5 pt-5 d-flex justify-content-center'>Felkeltettem az érdeklődésed?</h2>
                             <p className='d-flex justify-content-center smgq mt-4'>Küldj üzenetet</p>
                             <div className='d-flex justify-content-center mt-3 buttons'>
-                                <button onMouseEnter={()=>handleMouseEnterOnButton(1)} onMouseLeave={handleMouseLeaveOnButton} onClick={openLinkedInProfile} className={`smgbutton linkdin ${hoverButtonId===1?'hoveredlinkdin':""}`}>LinkdIn</button>
+                                <button onMouseEnter={()=>handleMouseEnterOnButton(1)} onMouseLeave={handleMouseLeaveOnButton} onClick={openLinkedInProfile} className={`smgbutton linkdin ${hoverButtonId===1?'hoveredlinkdin':""}`}>LinkedIn</button>
                                 <button onMouseEnter={()=>handleMouseEnterOnButton(2)} onMouseLeave={handleMouseLeaveOnButton} onClick={()=>setShowEmail(!showEmail)} className={`smgbutton gmail ${hoverButtonId===2?'hoveredgmail':""}`}>Gmail</button>
                                 <div className={`${showEmail?"show":"notshow"} position-relative`}>
                                     <p className="mt-3 smgp ">Email: <span className='smgspan'>Erno801@gmail.com</span><button className='position-absolute top-0 end-0 emailbutton' onClick={() =>handleCopyButton("erno801@gmail.com")}><BiCopy></BiCopy></button> </p>

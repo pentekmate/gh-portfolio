@@ -8,10 +8,8 @@ function MobileNav({scrolling}) {
    const[clicked,setClicked]=useState(false)
 
     return(
-     
     <nav className={`navbar navbar-expand-lg ${scrolling? 'navbar-show':''}`}>
             <div className="container-fluid d-flex justify-content-end">
-
                 <BiMenuAltLeft onClick={()=>setClicked(!clicked)} id="dropdown-basic" color="#fdfdfd" size={30}></BiMenuAltLeft>
                 {clicked && 
                 <div onClick={()=>setClicked(!clicked)} className="mobilemenu d-flex flex-column position-relative">
